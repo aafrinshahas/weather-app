@@ -1,0 +1,32 @@
+.wrapper{
+    background-image: linear-gradient(to top, rgba(189,8,252,100%),rgba(54,42,132, 100%), rgba(18,6,67,100%));
+}
+
+.left-layout{
+    width: 40%;
+    padding-right: 30px;
+}
+
+.right-layout{
+    width: 58%;
+    padding-left: 30px;
+}
+.outer-box{
+    background-image: linear-gradient(to top , rgba(157, 82, 172, 10%), rgba(62, 45, 143, 50%));
+    height: auto;
+}
+input:focus{
+    outline: none;
+}
+@media only screen and (max-width: 767px) {
+    .left-layout{
+        width: 100%;
+        padding-right: 0px;
+        border: none;
+    }
+    
+    .right-layout{
+        width: 100%;
+        padding-left: 0px;
+    }
+  }
