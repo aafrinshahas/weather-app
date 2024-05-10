@@ -25,7 +25,7 @@ weatherData.then((res)=>{
 setCity(res.data.name)
 setWeather(res.data.weather[0].main);
 setDesc(res.data.weather[0].description)
-setTemp(res.data.main.temp);
+setTemp(Math.floor((res.data.main.temp - 273.15)));
 setHumidityval(res.data.main.humidity)
 setPressureval(res.data.main.pressure)
 setWindval(res.data.wind.speed)
@@ -61,7 +61,7 @@ return(
 </div>
 <div className="temp text-center py-2">
 <img src={sun} alt='sun' className='w-20 h-20 inline-block'></img>
-<p className='text-white text-xl'>{temp}</p>
+<p className='text-white text-xl'>{temp}&deg;c</p>
 </div>
 <div className="inner-box flex justify-around">
 <div className="box">
