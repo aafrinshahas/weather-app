@@ -1,6 +1,6 @@
 .wrapper{
     background-image: linear-gradient(to top, rgba(189,8,252,100%),rgba(54,42,132, 100%), rgba(18,6,67,100%));
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .left-layout{
