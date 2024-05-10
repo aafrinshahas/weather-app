@@ -51,7 +51,7 @@ return(
 </div>
 <div className="info mt-6">
 <p className='text-4xl text-white capitalize'>{city}</p>
-<p className='text-xl text-gray-300'>{desc}</p>
+<p className='text-xl text-gray-300 capitalize'>{desc}</p>
 </div>
 <div className="outer-box rounded-xl mt-10 shadow-lg p-3">
 
