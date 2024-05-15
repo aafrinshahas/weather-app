@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple steps:
 
 ### Navigate to the project directory:
 
-   cd weather-app
+    cd weather-app
 
 ### Install dependencies:
 
