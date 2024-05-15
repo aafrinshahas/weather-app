@@ -41,9 +41,9 @@ This app utilizes the OpenWeather API to fetch weather data. You will need to si
 
 ## Acknowledgements
 
-OpenWeather for providing the weather API.
+- OpenWeather for providing the weather API.
 
-Tailwind CSS for the utility-first CSS framework.
+- Tailwind CSS for the utility-first CSS framework.
 
-Axios for making HTTP requests.
+- Axios for making HTTP requests.
 
